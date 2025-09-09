@@ -209,8 +209,9 @@ h3 {
     gap: 24px;
 }
 .team-item {
-  border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+  
 }
 .team-name {
     margin-bottom: 8px;
