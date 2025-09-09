@@ -192,7 +192,7 @@ h3 {
     display: flex;
     gap: 24px;
 }
-.benefits-subtitle {
+.benefits-list {
     flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0 0 4px 4px;
 }
@@ -208,7 +208,7 @@ h3 {
     display: flex;
     gap: 24px;
 }
-.team-name {
+.team-list {
     flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0 0 4px 4px;
   
