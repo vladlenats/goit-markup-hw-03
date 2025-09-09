@@ -194,7 +194,7 @@ h3 {
 }
 .benefits-list {
     flex-basis: calc((100% - 3 * 24px) / 4);
-    border-radius: 0 0 4px 4px;
+    border-radius: 0px 0px 4px 4px;
 }
 /* =============== Team Section 3========== */
 .team {
@@ -208,9 +208,9 @@ h3 {
     display: flex;
     gap: 24px;
 }
-.team-list {
+.list-item:first-child {
     flex-basis: calc((100% - 3 * 24px) / 4);
-    border-radius: 0 0 4px 4px;
+    border-radius: 0px 0px 4px 4px;
   
 }
 .team-name {
@@ -239,7 +239,7 @@ h3 {
     margin: 0;
     padding: 0;
 }
-.portfolio-item {
+.list-item:first-child {
     flex-basis: calc((100% - 48px) / 3);
     border-radius: 0 0 4px 4px; 
 }
