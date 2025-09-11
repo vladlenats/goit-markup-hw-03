@@ -208,8 +208,7 @@ h3 {
     display: flex;
     gap: 24px;
 }
-.list-item:first-child {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+.team-item:first-child {
     border-radius: 0px 0px 4px 4px;
   
 }
@@ -221,6 +220,7 @@ h3 {
 }
 .team-item {
     background-color: #FFFFFF;
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 /* =============== Portfolio Section 4========== */
 .portfolio {
